@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71C2FE61297A38F60094CD8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2FE60297A38F60094CD8F /* AppDelegate.swift */; };
+		71C2FE63297A38F60094CD8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2FE62297A38F60094CD8F /* SceneDelegate.swift */; };
+		71C2FE65297A38F60094CD8F /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2FE64297A38F60094CD8F /* CategoryController.swift */; };
+		71C2FE68297A38F60094CD8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C2FE66297A38F60094CD8F /* Main.storyboard */; };
+		71C2FE6A297A38F60094CD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C2FE69297A38F60094CD8F /* Assets.xcassets */; };
+		71C2FE6D297A38F60094CD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C2FE6B297A38F60094CD8F /* LaunchScreen.storyboard */; };
+		71C2FE79297A3A100094CD8F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2FE78297A3A100094CD8F /* Constants.swift */; };
+		71C2FE7B297B01360094CD8F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2FE7A297B01360094CD8F /* Category.swift */; };
+		71C2FE7D297B015D0094CD8F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2FE7C297B015D0094CD8F /* Item.swift */; };
+		71C2FE7F297CA4120094CD8F /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2FE7E297CA4120094CD8F /* ItemTableViewController.swift */; };
+		71C2FE83297DF20A0094CD8F /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2FE82297DF20A0094CD8F /* SwipeTableViewController.swift */; };
+		74AA45E8414E31B078FBC4EE /* Pods_adhdHelperRealmVerionAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FB3909BE3E62FC3B8E3749 /* Pods_adhdHelperRealmVerionAPP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08AFBC2E36D35491B16083E5 /* Pods-adhdHelperRealmVerionAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adhdHelperRealmVerionAPP.release.xcconfig"; path = "Target Support Files/Pods-adhdHelperRealmVerionAPP/Pods-adhdHelperRealmVerionAPP.release.xcconfig"; sourceTree = "<group>"; };
+		71C2FE5D297A38F60094CD8F /* adhdHelperRealmVerionAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adhdHelperRealmVerionAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C2FE60297A38F60094CD8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71C2FE62297A38F60094CD8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71C2FE64297A38F60094CD8F /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		71C2FE67297A38F60094CD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71C2FE69297A38F60094CD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71C2FE6C297A38F60094CD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71C2FE6E297A38F60094CD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C2FE78297A3A100094CD8F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		71C2FE7A297B01360094CD8F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		71C2FE7C297B015D0094CD8F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		71C2FE7E297CA4120094CD8F /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		71C2FE82297DF20A0094CD8F /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		DA5A0114867B1FA6D5189E65 /* Pods-adhdHelperRealmVerionAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adhdHelperRealmVerionAPP.debug.xcconfig"; path = "Target Support Files/Pods-adhdHelperRealmVerionAPP/Pods-adhdHelperRealmVerionAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		F8FB3909BE3E62FC3B8E3749 /* Pods_adhdHelperRealmVerionAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_adhdHelperRealmVerionAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71C2FE5A297A38F60094CD8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AA45E8414E31B078FBC4EE /* Pods_adhdHelperRealmVerionAPP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71C2FE54297A38F60094CD8F = {
+			isa = PBXGroup;
+			children = (
+				71C2FE5F297A38F60094CD8F /* adhdHelperRealmVerionAPP */,
+				71C2FE5E297A38F60094CD8F /* Products */,
+				9FE9390549924D412C5F24FE /* Pods */,
+				B8E07E1137F86166EB2B78C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71C2FE5E297A38F60094CD8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71C2FE5D297A38F60094CD8F /* adhdHelperRealmVerionAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71C2FE5F297A38F60094CD8F /* adhdHelperRealmVerionAPP */ = {
+			isa = PBXGroup;
+			children = (
+				71C2FE60297A38F60094CD8F /* AppDelegate.swift */,
+				71C2FE62297A38F60094CD8F /* SceneDelegate.swift */,
+				71C2FE77297A39ED0094CD8F /* Model */,
+				71C2FE75297A39C40094CD8F /* View */,
+				71C2FE74297A39A80094CD8F /* Controller */,
+				71C2FE69297A38F60094CD8F /* Assets.xcassets */,
+				71C2FE6B297A38F60094CD8F /* LaunchScreen.storyboard */,
+				71C2FE6E297A38F60094CD8F /* Info.plist */,
+			);
+			path = adhdHelperRealmVerionAPP;
+			sourceTree = "<group>";
+		};
+		71C2FE74297A39A80094CD8F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71C2FE64297A38F60094CD8F /* CategoryController.swift */,
+				71C2FE7E297CA4120094CD8F /* ItemTableViewController.swift */,
+				71C2FE82297DF20A0094CD8F /* SwipeTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		71C2FE75297A39C40094CD8F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71C2FE66297A38F60094CD8F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71C2FE77297A39ED0094CD8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71C2FE78297A3A100094CD8F /* Constants.swift */,
+				71C2FE7A297B01360094CD8F /* Category.swift */,
+				71C2FE7C297B015D0094CD8F /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FE9390549924D412C5F24FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA5A0114867B1FA6D5189E65 /* Pods-adhdHelperRealmVerionAPP.debug.xcconfig */,
+				08AFBC2E36D35491B16083E5 /* Pods-adhdHelperRealmVerionAPP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8E07E1137F86166EB2B78C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8FB3909BE3E62FC3B8E3749 /* Pods_adhdHelperRealmVerionAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71C2FE5C297A38F60094CD8F /* adhdHelperRealmVerionAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C2FE71297A38F60094CD8F /* Build configuration list for PBXNativeTarget "adhdHelperRealmVerionAPP" */;
+			buildPhases = (
+				818333EE0BFCD2ECA8A489D0 /* [CP] Check Pods Manifest.lock */,
+				71C2FE59297A38F60094CD8F /* Sources */,
+				71C2FE5A297A38F60094CD8F /* Frameworks */,
+				71C2FE5B297A38F60094CD8F /* Resources */,
+				AFC9A06EB95614C7E41A263E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adhdHelperRealmVerionAPP;
+			productName = adhdHelperRealmVerionAPP;
+			productReference = 71C2FE5D297A38F60094CD8F /* adhdHelperRealmVerionAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71C2FE55297A38F60094CD8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					71C2FE5C297A38F60094CD8F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 71C2FE58297A38F60094CD8F /* Build configuration list for PBXProject "adhdHelperRealmVerionAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71C2FE54297A38F60094CD8F;
+			productRefGroup = 71C2FE5E297A38F60094CD8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71C2FE5C297A38F60094CD8F /* adhdHelperRealmVerionAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71C2FE5B297A38F60094CD8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C2FE6D297A38F60094CD8F /* LaunchScreen.storyboard in Resources */,
+				71C2FE6A297A38F60094CD8F /* Assets.xcassets in Resources */,
+				71C2FE68297A38F60094CD8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		818333EE0BFCD2ECA8A489D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-adhdHelperRealmVerionAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC9A06EB95614C7E41A263E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-adhdHelperRealmVerionAPP/Pods-adhdHelperRealmVerionAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-adhdHelperRealmVerionAPP/Pods-adhdHelperRealmVerionAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-adhdHelperRealmVerionAPP/Pods-adhdHelperRealmVerionAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71C2FE59297A38F60094CD8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C2FE83297DF20A0094CD8F /* SwipeTableViewController.swift in Sources */,
+				71C2FE65297A38F60094CD8F /* CategoryController.swift in Sources */,
+				71C2FE7B297B01360094CD8F /* Category.swift in Sources */,
+				71C2FE61297A38F60094CD8F /* AppDelegate.swift in Sources */,
+				71C2FE63297A38F60094CD8F /* SceneDelegate.swift in Sources */,
+				71C2FE7D297B015D0094CD8F /* Item.swift in Sources */,
+				71C2FE79297A3A100094CD8F /* Constants.swift in Sources */,
+				71C2FE7F297CA4120094CD8F /* ItemTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71C2FE66297A38F60094CD8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C2FE67297A38F60094CD8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71C2FE6B297A38F60094CD8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C2FE6C297A38F60094CD8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71C2FE6F297A38F60094CD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71C2FE70297A38F60094CD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71C2FE72297A38F60094CD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5A0114867B1FA6D5189E65 /* Pods-adhdHelperRealmVerionAPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = adhdHelperRealmVerionAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amel..adhdHelperRealmVerionAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71C2FE73297A38F60094CD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08AFBC2E36D35491B16083E5 /* Pods-adhdHelperRealmVerionAPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = adhdHelperRealmVerionAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amel..adhdHelperRealmVerionAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71C2FE58297A38F60094CD8F /* Build configuration list for PBXProject "adhdHelperRealmVerionAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C2FE6F297A38F60094CD8F /* Debug */,
+				71C2FE70297A38F60094CD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C2FE71297A38F60094CD8F /* Build configuration list for PBXNativeTarget "adhdHelperRealmVerionAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C2FE72297A38F60094CD8F /* Debug */,
+				71C2FE73297A38F60094CD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71C2FE55297A38F60094CD8F /* Project object */;
+}
